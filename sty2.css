@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    .calendar{
+background-color: wheat;
+        
+        width: 300px;
+        font-weight: bold;
+        margin-top: 70px;
+        height: 400px;
+        border-radius: 20px;
+       overflow: hidden;
+    }
+    p{
+        margin: 0;
+        padding: 10px;
+        text-align: center;
+    }
+   .month{
+    margin: 0;
+    background-color: orangered;
+    color: aliceblue;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bold;
+
+    
+
+}
+.day{
+    font-size: 20px;
+    color: darkgray;
+}
+.date{
+    font-size: 80px;
+    font-weight: bold;
+}
+.year{
+    margin: 20px 0;
+    font-weight: bold;
+    color: darkgray;
+}
